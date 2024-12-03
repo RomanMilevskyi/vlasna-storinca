@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; /* Вирівнюємо навігацію праворуч */
+    gap: 2rem;
+    list-style: none; /* Прибираємо маркери */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: flex-start; /* Вирівнюємо контент зліва */
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    max-width: 60%; /* Задаємо максимальну ширину тексту */
+}
+
+.text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resume-btn {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.profile-pic {
+    margin-left: auto; /* Це вирівнює фото праворуч */
+}
+
+.profile-pic img {
+    width: 200px; /* Розмір фото */
+    height: 200px;
+    border-radius: 50%; /* Кругла форма */
+    object-fit: cover; /* Обрізає фото, щоб воно вписувалося */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recent-posts, .featured-works {
+    padding: 2rem;
+    background-color: #ffffff;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-header h2, .featured-works h2 {
+    font-size: 1.5rem;
+}
+
+.posts {
+    display: flex;
+    gap: 2rem;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.post h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.work {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.work-thumbnail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.work-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-info .year, .work-info .category {
+    font-size: 0.8rem;
+    color: #777;
+    margin-right: 0.5rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
